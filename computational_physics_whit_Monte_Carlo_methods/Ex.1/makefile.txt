@@ -1,0 +1,17 @@
+LIBS:=`root-config --libs`
+INCS:=`root-config --cflags`
+
+main: main.o RandomGen.o EsperimentoPrisma.o
+	g++ -o main main.o RandomGen.o EsperimentoPrisma.o ${INCS} ${LIBS} -std=c++11
+
+main.o: main.cpp RandomGen.h EsperimentoPrisma.h
+	g++ -c -o main.o main.cpp ${INCS} ${LIBS} -std=c++11
+
+RandomGen.o: RandomGen.cpp RandomGen.h
+	g++ -c -o RandomGen.o RandomGen.cpp ${INCS} ${LIBS} -std=c++11
+
+EsperimentoPrisma.o: EsperimentoPrisma.cpp RandomGen.h EsperimentoPrisma.h
+	g++ -c -o EsperimentoPrisma.o EsperimentoPrisma.cpp ${INCS} ${LIBS} -std=c++11
+
+clean:
+	rm *.o
