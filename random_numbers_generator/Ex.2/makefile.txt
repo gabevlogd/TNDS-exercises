@@ -1,0 +1,12 @@
+LIBS:=`root-config --libs`
+INCS:=`root-config --cflags`
+
+main: main.o RandomGen.o
+	g++ main.o RandomGen.o -o main ${INCS} ${LIBS} -std=c++11
+main.o: main.cpp RandomGen.h
+	g++ -c main.cpp -o main.o ${INCS} ${LIBS} -std=c++11
+RandomGen.o: RandomGen.cpp RandomGen.h
+	g++ -c RandomGen.cpp -o RandomGen.o
+
+clean:
+	rm *.o
