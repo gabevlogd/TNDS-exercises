@@ -1,0 +1,9 @@
+main: main.o bisezione.o
+	g++ -o main main.o bisezione.o
+main.o: main.cpp funzione.h bisezione.h
+	g++ -c main.cpp -o main.o
+bisezione.o: bisezione.cpp bisezione.h
+	g++ -c bisezione.cpp -o bisezione.o
+
+clean: 
+	rm *.o
