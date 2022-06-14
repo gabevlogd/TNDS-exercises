@@ -1,0 +1,4 @@
+main: main.cpp Particella.h
+	g++ -o main main.cpp
+clean: 
+	rm *.o

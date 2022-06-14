@@ -1,0 +1,9 @@
+main: main.o Posizione.o 
+	g++ main.o Posizione.o -o main
+main.o: main.cpp Posizione.h
+	g++ -c main.cpp -o main.o
+Posizione.o: Posizione.cpp Posizione.h
+	g++ -c Posizione.cpp -o Posizione.o
+
+clean: 
+	rm *.o

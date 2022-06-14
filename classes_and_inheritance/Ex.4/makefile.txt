@@ -1,0 +1,16 @@
+LIBS:=`root-config --libs`
+INCS:=`root-config --cflags`
+
+main: main.o CampoVettoriale.o Posizione.o PuntoMateriale.o
+	g++ -o main main.o CampoVettoriale.o Posizione.o PuntoMateriale.o ${INCS} ${LIBS} -std=c++11
+main.o: main.cpp CampoVettoriale.h PuntoMateriale.h 
+	g++ -c main.cpp -o main.o ${INCS} ${LIBS} -std=c++11
+Posizione.o: Posizione.cpp Posizione.h
+	g++ -c Posizione.cpp -o Posizione.o
+CampoVettoriale.o: CampoVettoriale.cpp CampoVettoriale.h 
+	g++ -c CampoVettoriale.cpp -o CampoVettoriale.o
+PuntoMateriale.o: PuntoMateriale.cpp PuntoMateriale.h
+	g++ -c PuntoMateriale.cpp -o PuntoMateriale.o
+
+clean:
+	rm *.o
