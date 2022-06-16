@@ -27,11 +27,11 @@ int main (int argc, char** argv) { // esempio di main.cpp per verificare la funz
   PuntoMateriale elettrone (me, -e, 0., 0., d/2.);
   PuntoMateriale protone (me, e, 0., 0., -d/2.);
 
-	// sommate nella Posizione r il contributo del CampoElettrico di elettrone e protone
+  // somma nella Posizione r il contributo del CampoElettrico di elettrone e protone
   CampoVettoriale E = elettrone.CampoElettrico(r)+protone.CampoElettrico(r);
 
-  // Stampate su termianle le tre componenti del CampoVettoriale risultante nella Posizione r
-	cout << "Ex = " << E.getFx() << ", Ey = " << E.getFy() << ", Ez = " << E.getFz() << endl;
+  // Stamp su termianle le tre componenti del CampoVettoriale risultante nella Posizione r
+  cout << "Ex = " << E.getFx() << ", Ey = " << E.getFy() << ", Ez = " << E.getFz() << endl;
 
   return 0;
 }
