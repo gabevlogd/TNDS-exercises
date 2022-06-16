@@ -33,9 +33,9 @@ class Integral{
 	protected:
 
 		double m_a, m_b, m_h, m_sum;
-  	int m_sign;
-  	double m_integral;
-  	const FunzioneBase* m_f;
+  		int m_sign;
+  		double m_integral;
+  		const FunzioneBase* m_f;
 
 };
 
