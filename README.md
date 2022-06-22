@@ -8,4 +8,4 @@ I report below some graphical results of the exercises
 In these exercises I use some methods for solving ordinary differential equations, in particular I use the Euler and Runge-Kutta methods
 ###### Euler method for the harmonic oscillator (EX.1): 
 - Euler's method is not very precise, in fact with a modest integration step we can see how it can be unstable, showing oscillations whose amplitude varies with time. The figure below shows the trend of x as a function of t with an integration step of 0.1 seconds:
-[passo0_1EuleroOscilArm.pdf](https://github.com/gabevlogd/TNDS-exercises/files/8959349/passo0_1EuleroOscilArm.pdf)
+![4twe4t4](https://user-images.githubusercontent.com/72387126/175076875-1dd7f529-3b32-477b-a9ae-97599af3ae7c.png)
