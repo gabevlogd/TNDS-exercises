@@ -18,3 +18,11 @@ In these exercises I use some methods for solving ordinary differential equation
 
 - The following figure shows the accumulated error after 70 s of integration for different step values (Note how the slope of the curve is 1 in a log-log scale, showing how the error obtained is proportional to step h):
 ![wrwef](https://user-images.githubusercontent.com/72387126/175078347-6d452e29-23e7-4265-bb4c-e984dda7e9f2.png)
+
+
+###### Runge-Kutta method for the harmonic oscillator (EX.2):
+- The fourth order Runge-Kutta method is much more precise than the Euler method, in fact, even with an integration step of 0.1 s it produces very stable oscillations:
+![rtegerger](https://user-images.githubusercontent.com/72387126/175080026-6af50642-2dbb-400d-bff6-c5861d7e4156.png)
+
+
+- The following figure shows the accumulated error after 70 s of integration for different values of the step:![ukkikuyki](https://user-images.githubusercontent.com/72387126/175080265-cbbc0a99-c128-40bb-a701-c159efd01cb9.png)
