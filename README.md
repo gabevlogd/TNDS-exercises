@@ -11,7 +11,7 @@ In these exercises I use some methods for solving ordinary differential equation
 ![4twe4t4](https://user-images.githubusercontent.com/72387126/175076875-1dd7f529-3b32-477b-a9ae-97599af3ae7c.png)
 
 
-- To have something even visually acceptable, you have to go in steps of at least 0.0002 s:
+- To have something even visually acceptable, you have to go in steps of at least 0.0001 s:
 ![Immagine](https://user-images.githubusercontent.com/72387126/175077389-81f4274f-2ff6-4fa0-a856-952481339f72.png)
 
 
