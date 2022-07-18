@@ -16,7 +16,7 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 - The following figure shows the accumulated error after 70 s of integration for different step values (Note how the slope of the curve is 1 in a log-log scale, showing how the error obtained is proportional to step h):
-![wrwef](https://user-images.githubusercontent.com/72387126/175078347-6d452e29-23e7-4265-bb4c-e984dda7e9f2.png)
+![jjjjjj](https://user-images.githubusercontent.com/72387126/179501630-9252f1a7-a204-4756-a293-a589cd74a443.png)
 
 
 ### Runge-Kutta method for the harmonic oscillator (EX.2):
