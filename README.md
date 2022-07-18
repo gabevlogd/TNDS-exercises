@@ -3,6 +3,17 @@ some selected exercises carried out during the course of numerical treatment of 
 I report below some graphical results of the exercises 
 
 
+## - [Random numbers generator](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator):
+In these exercises an algorithm for the generation of random numbers is implemented. The algorithm is then used to produce a uniform, normal and exponential distribution ([EX.1](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator/Ex.1)). In the second exercise it is used to prove the central limit theorem ([EX.2](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator/Ex.2)). Finally, as a practical application of the algorithm, mono and multi-dimensional integrals are solved ([EX.3](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator/Ex.3)). You can find the distribution plots below:
+![unif](https://user-images.githubusercontent.com/72387126/179533708-95bba379-ce58-4210-a2fd-1fd30d5d7cb3.png)
+
+![exp](https://user-images.githubusercontent.com/72387126/179533798-709e9ca5-0bee-406d-b43b-072059158ae3.png)
+
+![BM](https://user-images.githubusercontent.com/72387126/179533889-87e800ed-ed1c-4369-894c-383e14c4c753.png)
+
+![AR](https://user-images.githubusercontent.com/72387126/179533908-daa85b49-78b1-43d4-9f2c-3befeb8b4296.png)
+
+
 ## - [Differential equations](https://github.com/gabevlogd/TNDS-exercises/tree/main/differential_equations):
 In these exercises I use some methods for solving ordinary differential equations, in particular I use the Euler and Runge-Kutta methods
 
@@ -40,16 +51,4 @@ In these exercises I use some methods for solving ordinary differential equation
 
 - The following figure illustrates the resonance curve. It shows the amplitude trend as a function of the pulsation of the external force. The resonance of the system is $ω_0=10rad/s$ in fact the maximum amplitude of oscillation is reached when the pulsation of the external force is $ω=10rad/s(=ω_0)$
 - ![σσσσσσσσσ](https://user-images.githubusercontent.com/72387126/179517949-25c95a80-8274-499e-9569-f0e3f114ea36.png)
-
-
-
-## - [Random numbers generator](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator):
-In these exercises an algorithm for the generation of random numbers is implemented. The algorithm is then used to produce a uniform, normal and exponential distribution ([EX.1](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator/Ex.1)). In the second exercise it is used to prove the central limit theorem ([EX.2](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator/Ex.2)). Finally, as a practical application of the algorithm, mono and multi-dimensional integrals are solved ([EX.3](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator/Ex.3)). You can find the distribution plots below:
-![unif](https://user-images.githubusercontent.com/72387126/179533708-95bba379-ce58-4210-a2fd-1fd30d5d7cb3.png)
-
-![exp](https://user-images.githubusercontent.com/72387126/179533798-709e9ca5-0bee-406d-b43b-072059158ae3.png)
-
-![BM](https://user-images.githubusercontent.com/72387126/179533889-87e800ed-ed1c-4369-894c-383e14c4c753.png)
-
-![AR](https://user-images.githubusercontent.com/72387126/179533908-daa85b49-78b1-43d4-9f2c-3befeb8b4296.png)
 
