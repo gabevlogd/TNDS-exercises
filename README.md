@@ -38,6 +38,6 @@ In these exercises I use some methods for solving ordinary differential equation
 
 - ![101010](https://user-images.githubusercontent.com/72387126/179512837-a31258bb-65e1-41c0-8c84-266f640855c6.png) ![15151515](https://user-images.githubusercontent.com/72387126/179512873-c2daa87a-9d77-4b09-9a08-8db2cf37ed8f.png)
 
-- The following figure illustrates the resonance curve. It shows the amplitude trend as a function of the pulsation of the external force
+- The following figure illustrates the resonance curve. It shows the amplitude trend as a function of the pulsation of the external force. The resonance of the system is $ω_0=10rad/s$ in fact the maximum amplitude of oscillation is reached when the pulsation of the external force is $ω=10rad/s(=ω_0)$
 
 
