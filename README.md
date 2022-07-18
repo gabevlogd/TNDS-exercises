@@ -26,3 +26,7 @@ In these exercises I use some methods for solving ordinary differential equation
 
 - The following figure shows the accumulated error after 70 s of integration for different values of the step: ![xxxxxx](https://user-images.githubusercontent.com/72387126/179502302-56ad8556-123f-4108-a574-4b013c63f23c.png)
 
+
+### Runge-Kutta method for pendulum motion (EX.3):
+- The pendulum equation is given by the relation d^2θ/dt^2 = -(g/l)sinθ
+
