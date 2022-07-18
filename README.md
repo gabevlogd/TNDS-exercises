@@ -1,6 +1,6 @@
 # TNDS-exercises
 some selected exercises carried out during the course of numerical treatment of experimental data (TNDS) at the physics faculty of Unimi. 
-I report below some graphical results of the exercises
+I report below some graphical results of the exercises 
 
 
 ## - Differential equations:
@@ -28,5 +28,13 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 ### Runge-Kutta method for pendulum motion (EX.3):
-- The pendulum equation is given by the relation $$ d^2 θ/dt^2 = -(g/l)sinθ $$
+- The pendulum equation is given by the relation  $d^2θ/dt^2 = -(g/l)sinθ$ where g=9.81 m/s is the acceleration of gravity on the earth's surface while l is the length of the pendulum. The figure illustrates the period as the amplitude varies for a pendulum with l = 1 m:
+![qqqqqqq](https://user-images.githubusercontent.com/72387126/179506266-98789604-b1bf-48a0-85c7-bb13a87cd393.png)
+
+
+### Runge-Kutta method for the forced harmonic oscillator (EX.4):
+- The equation of the damped harmonic oscillator with forcing is given by the relation $d^2x/dt^2 = -ω_{0}^{2}x - α*dx/dt + sin(ω t)$. The following figures illustrate the initial part of the transient for initial conditions x(0) = 0, dx/dt(0) = 0 and different values of ω:
+![5555555](https://user-images.githubusercontent.com/72387126/179512226-47db0d8f-74a2-4ddb-bfe9-629757864bce.png)
+
+
 
