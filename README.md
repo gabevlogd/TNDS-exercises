@@ -28,5 +28,5 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 ### Runge-Kutta method for pendulum motion (EX.3):
-- The pendulum equation is given by the relation d^2θ/dt^2 = -(g/l)sinθ
+- The pendulum equation is given by the relation $$ d^2 θ/dt^2 = -(g/l)sinθ $$
 
