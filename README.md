@@ -33,8 +33,11 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 ### Runge-Kutta method for the forced harmonic oscillator (EX.4):
-- The equation of the damped harmonic oscillator with forcing is given by the relation $d^2x/dt^2 = -ω_{0}^{2}x - α*dx/dt + sin(ω t)$. The following figures illustrate the initial part of the transient for initial conditions x(0) = 0, dx/dt(0) = 0 and different values of ω:
-![5555555](https://user-images.githubusercontent.com/72387126/179512226-47db0d8f-74a2-4ddb-bfe9-629757864bce.png)
+- The equation of the damped harmonic oscillator with forcing is given by the relation $d^2x/dt^2 = -ω_{0}^{2}x - α*dx/dt + sin(ω t)$. The following figures illustrate the initial part of the transient for initial conditions x(0) = 0, dx/dt(0) = 0 and different values of ω: (in order from first to third: ω = 5, 10, 15)
+- ![5555555](https://user-images.githubusercontent.com/72387126/179512226-47db0d8f-74a2-4ddb-bfe9-629757864bce.png)
 
+- ![101010](https://user-images.githubusercontent.com/72387126/179512837-a31258bb-65e1-41c0-8c84-266f640855c6.png) ![15151515](https://user-images.githubusercontent.com/72387126/179512873-c2daa87a-9d77-4b09-9a08-8db2cf37ed8f.png)
+
+- The following figure illustrates the resonance curve. It shows the amplitude trend as a function of the pulsation of the external force
 
 
