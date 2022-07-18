@@ -44,6 +44,8 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 ## - Random numbers generator:
+In these exercises an algorithm for the generation of random numbers is implemented. The algorithm is then used to produce a uniform, normal and exponential distribution.
+finally, as a practical application of the algorithm, mono and multi-dimensional integrals are solved.
 
 
 
