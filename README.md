@@ -21,7 +21,7 @@ In these exercises I use some methods for solving ordinary differential equation
 
 ### Runge-Kutta method for the harmonic oscillator (EX.2):
 - The fourth order Runge-Kutta method is much more precise than the Euler method, in fact, even with an integration step of 0.1 s it produces very stable oscillations:
-![rtegerger](https://user-images.githubusercontent.com/72387126/175080026-6af50642-2dbb-400d-bff6-c5861d7e4156.png)
+![kkkkk](https://user-images.githubusercontent.com/72387126/179502080-701f2b64-b6f2-44f6-90f2-75a46b126223.png)
 
 
 - The following figure shows the accumulated error after 70 s of integration for different values of the step:![ukkikuyki](https://user-images.githubusercontent.com/72387126/175080265-cbbc0a99-c128-40bb-a701-c159efd01cb9.png)
