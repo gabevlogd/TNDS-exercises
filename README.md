@@ -12,7 +12,7 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 - To have something even visually acceptable, you have to go in steps of at least 0.0001 s:
-![Immagine](https://user-images.githubusercontent.com/72387126/175077389-81f4274f-2ff6-4fa0-a856-952481339f72.png)
+![hhhhhh](https://user-images.githubusercontent.com/72387126/179501345-67ff3e88-76d5-47c0-812e-0a56b5356151.png)
 
 
 - The following figure shows the accumulated error after 70 s of integration for different step values (Note how the slope of the curve is 1 in a log-log scale, showing how the error obtained is proportional to step h):
