@@ -43,7 +43,7 @@ In these exercises I use some methods for solving ordinary differential equation
 
 
 
-## - Differential equations:
+## - Random numbers generator:
 
 
 
