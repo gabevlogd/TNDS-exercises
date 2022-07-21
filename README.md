@@ -8,6 +8,8 @@ By performing this exercise, I deepened the concept of inheritance in C ++;
 - [random_numbers_generator](https://github.com/gabevlogd/TNDS-exercises/tree/main/random_numbers_generator): More details below;
 - [computational_physics_whit_Monte_Carlo_methods](https://github.com/gabevlogd/TNDS-exercises/tree/main/computational_physics_whit_Monte_Carlo_methods): In these exercises I use Monte Carlo techniques for the numerical simulation of physical experiments that can be performed in the laboratory.
 
+NOTE: some programs require [Root](https://root.cern/install/) to run.
+
 I report below the graphical results of some exercises.
 
 
